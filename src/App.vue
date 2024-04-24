@@ -1,7 +1,11 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/maestros">Maestros</router-link> |
+    <router-link to="/materias">Materias</router-link> |
+    <router-link to="/materiasmaestros">Asignar materias a maestros</router-link> |
+    <router-link to="/alumnos">Alumnos</router-link> |
+    <router-link to="/grupos">Grupos</router-link>
   </nav>
   <router-view/>
 </template>
